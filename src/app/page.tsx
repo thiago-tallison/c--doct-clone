@@ -1,5 +1,6 @@
 import { AppointmentRequst } from "@/components/appointment-request";
 import { Header } from "@/components/header";
+import { RecentPatients } from "@/components/recent-pacients";
 import { Sidebar } from "@/components/sidebar";
 
 export default function Home() {
@@ -16,6 +17,8 @@ export default function Home() {
           </div>
 
           <AppointmentRequst />
+
+          <RecentPatients />
         </main>
       </div>
     </div>

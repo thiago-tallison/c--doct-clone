@@ -8,3 +8,11 @@ export function formatDate(ISODate: string): string {
     minute: '2-digit',
   }).format(date)
 }
+
+export function toHumanReadableDate(ISODate: string): string {
+  const date = new Date(ISODate)
+
+  return new Intl.DateTimeFormat('pt-br', {
+    dateStyle: 'short'
+  }).format(date)
+}
