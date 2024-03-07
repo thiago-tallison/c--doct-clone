@@ -4,8 +4,8 @@ import { AppointmentListItem } from "./appointment-list/list-item"
 
 export function AppointmentRequest() {
   return (
-    <>
-      <div className="flex justify-between items-center mb-4">
+    <div className="flex flex-col">
+      <div className="flex justify-between items-center mb-2">
         <strong>Appointment Request</strong>
         <a href="#" className="flex items-center text-blue-500 font-semibold text-sm hover:underline">View All <ChevronRight size={20} /></a>
       </div>
@@ -27,6 +27,6 @@ export function AppointmentRequest() {
           )
         })}
       </ul>
-    </>
+    </div>
   )
 }

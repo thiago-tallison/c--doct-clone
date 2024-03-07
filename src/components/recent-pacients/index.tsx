@@ -15,8 +15,8 @@ export type RecentPatientType = {
 
 export function RecentPatients() {
   return (
-    <div className='flex flex-col w-full mt-6'>
-      <div className="flex justify-between items-center mb-4">
+    <div className='flex flex-col w-full'>
+      <div className="flex justify-between items-center mb-2">
         <strong>Recent Patients</strong>
         <a href="#" className="flex items-center text-blue-500 font-semibold text-sm hover:underline">View All <ChevronRight size={20} /></a>
       </div>
