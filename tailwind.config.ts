@@ -14,6 +14,7 @@ const config: Config = {
         text: {
           primary: "#1B2531",
           secondary: "#62676B",
+          placeholder: "#9ca3af"
         },
         purple: {
           500: "#7A6EFE",
