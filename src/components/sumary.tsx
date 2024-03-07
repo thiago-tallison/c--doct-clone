@@ -18,7 +18,7 @@ export function Sumary() {
           <User size={32} />
         </div>
         <div className="flex flex-col pl-4 flex-1">
-          <strong className="text-lg text-white/90">24.4k</strong>
+          <strong className="text-lg text-white/90">166.3k</strong>
           <span className="text-xs font-semibold text-white/85">Total Patient</span>
         </div>
       </div>
@@ -28,7 +28,7 @@ export function Sumary() {
           <Church size={32} />
         </div>
         <div className="flex flex-col pl-4 flex-1">
-          <strong className="text-lg text-white/90">24.4k</strong>
+          <strong className="text-lg text-white/90">53.5k</strong>
           <span className="text-xs font-semibold text-white/85">Clinic Consulting</span>
         </div>
       </div>
@@ -38,7 +38,7 @@ export function Sumary() {
           <Video size={32} />
         </div>
         <div className="flex flex-col pl-4 flex-1">
-          <strong className="text-lg text-white/90">24.4k</strong>
+          <strong className="text-lg text-white/90">28k</strong>
           <span className="text-xs font-semibold text-white/85">Video Consulting</span>
         </div>
       </div>
