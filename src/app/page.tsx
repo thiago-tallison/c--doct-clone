@@ -1,4 +1,4 @@
-import { AppointmentRequst } from "@/components/appointment-request";
+import { AppointmentRequest } from "@/components/appointment-request";
 import { Header } from "@/components/header";
 import { RecentPatients } from "@/components/recent-pacients";
 import { Sidebar } from "@/components/sidebar";
@@ -16,7 +16,7 @@ export default function Home() {
             <span className="text-sm text-text-secondary">Have a nice day at great work</span>
           </div>
 
-          <AppointmentRequst />
+          <AppointmentRequest />
 
           <RecentPatients />
         </main>

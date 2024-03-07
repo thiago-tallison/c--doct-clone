@@ -2,7 +2,7 @@ import { createRandomUser } from "@/utils/get-random-user"
 import { ChevronRight } from "lucide-react"
 import { AppointmentListItem } from "./appointment-list/list-item"
 
-export function AppointmentRequst() {
+export function AppointmentRequest() {
   return (
     <>
       <div className="flex justify-between items-center mb-4">
